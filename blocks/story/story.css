@@ -1,0 +1,24 @@
+.story {
+  box-sizing: border-box;
+  height: 520px;
+  /* width: 870px; */
+  background-image: url(../../image/story-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .story {
+    height: 414px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .story {
+    height: 382px;
+  }
+}

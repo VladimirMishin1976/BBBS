@@ -1,0 +1,11 @@
+.content {
+  color: black;
+  background-color: #F3F2F2;
+  padding: 0 75px;
+}
+
+@media screen and (max-width: 1500px) {
+  .content {
+    padding: 0 135px;
+  }
+}

@@ -1,0 +1,9 @@
+.button_place_calendar {
+  border-color: #224CFF;
+  color: #224CFF;
+}
+
+.button_place_calendar:hover {
+  background-color: #C8D1FF;
+  border: 1px solid #224CFF;
+}

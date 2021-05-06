@@ -1,0 +1,6 @@
+.calendar__button-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  align-items: center;
+}

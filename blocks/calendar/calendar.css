@@ -1,0 +1,32 @@
+.calendar {
+  box-sizing: border-box;
+  padding: 30px;
+  height: 520px;
+  /* width: 870px; */
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1500px) {
+  .calendar {
+   height: 414px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .story {
+    height: 382px;
+  }
+}
+
+.calendar_signed {
+  background-color: #C8D1FF;
+}
+
+.calendar_state_unauthorized {
+  background-color: #8CDD94;
+  padding: 0;
+  overflow: hidden;
+}

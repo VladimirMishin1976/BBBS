@@ -1,0 +1,13 @@
+.text-podpis {
+  font-family: "PT Root UI", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: .2px;
+  margin: 0;
+}
+
+.text-podpis_style_dark-gray {
+  color: #464646;
+}

@@ -1,0 +1,10 @@
+.calendar__oval {
+  width: 100;
+  height: 364px;
+  background: #FF8585;
+  border-radius: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+ }

@@ -1,0 +1,10 @@
+.button_place_calendar-choosen {
+  background-color: #224CFF;
+  border-color: #224CFF;
+  color: #FFFFFF;
+}
+
+.button_place_calendar-choosen:hover {
+  background-color: #2E2468;
+  border-color: #2E2468;
+}

@@ -1,0 +1,8 @@
+.calendar__link {
+  margin: 40px 0 0 30px;
+  display: block;
+}
+
+.calendar__link:hover {
+  cursor: pointer;
+}
