@@ -1,0 +1,29 @@
+@media (max-width: 1220px) {
+
+  .footer__line {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url("../../images/line-footer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 770px;
+    min-height: 40px;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .footer__line {
+    min-width: 400px;
+  }
+
+}
+
+@media (max-width: 490px) {
+
+  .footer__line {
+    min-width: 290px;
+  }
+
+}
