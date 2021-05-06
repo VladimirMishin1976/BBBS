@@ -15,24 +15,67 @@
     <main class="content">
       <div class="content__calendar">
 
+        <!-- Календарь - ЗАПИСАТЬСЯ НЕ ВЫБРАНО_____________________________________________________________________ -->
+        <!-- Добавить в класс calendar_signed  - ЗАПИСАТЬСЯ НЕ ВЫБРАНО-->
+        <section class="calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+            <p class="text-number">05</p>
+          </div>
+
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <!-- ТЕКСТ кнопки - "Отменить запись" - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+              <!-- КЛАСС кнопки дабавить  -button_place_calendar-choosen - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+              <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+              <!-- ТЕКСТ УБРАТЬ - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+              <p class="text-podpis">Осталось 5 мест</p>
+            </div>
+            <button class="button button_place_calendar-points " type="button"></button>
+          </div>
+        </section>
+
         <!-- Календарь неавторизированного пользователя_____________________________________________________________________ -->
-        <section class="calendar calendar_state_unauthorized">
+        <!-- <section class="calendar calendar_state_unauthorized">
           <div class="calendar__small-oval">
-            <a class="calendar__link"><img class='logo logo_place_calendar' src="./image/лого_СБСС.svg" alt="логотип СБСС"></a>
+            <a class="calendar__link" rel="noopener"><img class='logo logo_place_calendar' src="./image/лого_СБСС.svg" alt="логотип СБСС"></a>
           </div>
           <div class="calendar__oval">
             <p class="text-h2 calendar__description">Наставники.про – цифоровая информационная платформа организации
               «Старшие Братья Старшие
               Сестры». Созданная для поддержки наставников программы.</p>
           </div>
-        </section>
+        </section> -->
 
         <section class="story">
           <h2 class="text-h2 text-h2_theme_dark story__title">История Марины и Алины</h2>
         </section>
       </div>
 
-      <section class="where-go"></section>
+      <article class="where-go">
+        <section class="where-go__illustration">
+          <p class="tag">выбор наставника</p>
+          <h2 class="text-h2">Сплав на байдарках в две строки</h2>
+          <p class="text-podpis">усадьба Архангельское в две строки</p>
+          <img class="where-go__image" src="./image/where-go__image.jpg" alt="Люди на пляже, а я тут">
+          <a class="where-go__link" href="#" rel="noopener">перейти на сайт</a>
+
+        </section>
+      </article>
+
       <section class="questions"></section>
       <section class="read-watch"></section>
       <section class="rights"></section>

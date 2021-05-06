@@ -30,8 +30,9 @@
 @import url(../blocks/button/button_place_calendar-choosen.css);
 /*  */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks);
-@import url(../blocks);
+
+@import url(../blocks/where-go/where-go.css);
+@import url(../blocks/where-go/where-go__illustration.css);
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
