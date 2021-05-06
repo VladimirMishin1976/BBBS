@@ -3,53 +3,52 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <<<<<<< HEAD -->
   <title>BBBS</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
-  <div class="root">
-    <!-- гридом -->
-    <main class="content">
-      <div class="content__calendar">
+<body class="page">
+  <!-- гридом -->
+  <main class="content">
+    <div class="content__calendar">
 
-        <!-- Календарь - ЗАПИСАТЬСЯ НЕ ВЫБРАНО_____________________________________________________________________ -->
-        <!-- Добавить в класс calendar_signed  - ЗАПИСАТЬСЯ НЕ ВЫБРАНО-->
-        <section class="calendar">
-          <div class="calendar__contain">
-            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
-            <p class="text-podpis">декабрь / понедельник</p>
+      <!-- Календарь - ЗАПИСАТЬСЯ НЕ ВЫБРАНО_____________________________________________________________________ -->
+      <!-- Добавить в класс calendar_signed  - ЗАПИСАТЬСЯ НЕ ВЫБРАНО-->
+      <section class="calendar">
+        <div class="calendar__contain">
+          <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+          <p class="text-podpis">декабрь / понедельник</p>
+        </div>
+
+        <div class="calendar__contain">
+          <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+          <p class="text-number">05</p>
+        </div>
+
+        <p class="text-podpis">12:00–14:00</p>
+        <div class="calendar__underline"></div>
+
+        <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+        <div class="calendar__underline"></div>
+
+        <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+        <div class="calendar__contain">
+          <div class="calendar__button-box">
+            <!-- ТЕКСТ кнопки - "Отменить запись" - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+            <!-- КЛАСС кнопки дабавить  -button_place_calendar-choosen - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+            <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+            <!-- ТЕКСТ УБРАТЬ - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
+            <p class="text-podpis">Осталось 5 мест</p>
           </div>
+          <button class="button button_place_calendar-points " type="button"></button>
+        </div>
+      </section>
 
-          <div class="calendar__contain">
-            <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
-            <p class="text-number">05</p>
-          </div>
-
-          <p class="text-podpis">12:00–14:00</p>
-          <div class="calendar__underline"></div>
-
-          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-          <div class="calendar__underline"></div>
-
-          <p class="text-podpis">Александра, +7 926 356-78-90</p>
-
-          <div class="calendar__contain">
-            <div class="calendar__button-box">
-              <!-- ТЕКСТ кнопки - "Отменить запись" - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
-              <!-- КЛАСС кнопки дабавить  -button_place_calendar-choosen - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
-              <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
-              <!-- ТЕКСТ УБРАТЬ - ДЛЯ ЗАПИСАТЬСЯ НЕ ВЫБРАНО -->
-              <p class="text-podpis">Осталось 5 мест</p>
-            </div>
-            <button class="button button_place_calendar-points " type="button"></button>
-          </div>
-        </section>
-
-        <!-- Календарь неавторизированного пользователя_____________________________________________________________________ -->
-        <!-- <section class="calendar calendar_state_unauthorized">
+      <!-- Календарь неавторизированного пользователя_____________________________________________________________________ -->
+      <!-- <section class="calendar calendar_state_unauthorized">
           <div class="calendar__small-oval">
             <a class="calendar__link" rel="noopener"><img class='logo logo_place_calendar' src="./image/лого_СБСС.svg" alt="логотип СБСС"></a>
           </div>
@@ -60,30 +59,70 @@
           </div>
         </section> -->
 
-        <section class="story">
-          <h2 class="text-h2 text-h2_theme_dark story__title">История Марины и Алины</h2>
-        </section>
+      <section class="story">
+        <h2 class="text-h2 text-h2_theme_dark story__title">История Марины и Алины</h2>
+      </section>
+    </div>
+
+    <article class="where-go">
+      <section class="where-go__illustration">
+        <p class="tag">выбор наставника</p>
+        <h2 class="text-h2">Сплав на байдарках в две строки</h2>
+        <p class="text-podpis">усадьба Архангельское в две строки</p>
+        <img class="where-go__image" src="./image/where-go__image.jpg" alt="Люди на пляже, а я тут">
+        <a class="where-go__link" href="#" rel="noopener">перейти на сайт</a>
+
+      </section>
+    </article>
+
+    <section class="questions"></section>
+    <section class="read-watch"></section>
+    <section class="rights"></section>
+    <section class="stories"></section>
+
+  </main>
+
+  <footer class="footer page__container">
+
+    <div class="footer__container">
+      <img class="footer__logo" alt="логотип" src="images/лого_СБСС.svg">
+
+      <nav>
+        <ul class="navigation footer__navigation">
+          <li><a class="footer__link" href="#">О проекте</a></li>
+          <li><a class="footer__link" href="#">Календарь</a></li>
+          <li><a class="footer__link" href="#">Куда пойти</a></li>
+          <li><a class="footer__link" href="#">Вопросы</a></li>
+          <li><a class="footer__link" href="#">Читать и смотреть</a></li>
+          <li><a class="footer__link" href="#">Права детей</a></li>
+          <li><a class="footer__link" href="#">Истории</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__line"></div>
+
+      <ul class="footer__social">
+        <li><a class="footer__link" href="#">Facebook</a></li>
+        <li><a class="footer__link" href="#">VKontakte</a></li>
+        <li><a class="footer__link" href="#">Instagram</a></li>
+        <li><a class="footer__link" href="#">Уoutube</a></li>
+      </ul>
+
+      <button class="footer__button" type="button" aria-label="Помочь деньгами">Помочь деньгами</button>
+
+      <div class="footer__info">
+        <p class="footer__copyright">© Старшие Братья Старшие Сестры</p>
+        <p class="footer__development">Разработка – студенты <a class="footer__info-link"
+            href="https://praktikum.yandex.ru">Яндекс.Практикум</a></p>
+        <p class="footer__development">Концепция и дизайн – <a class="footer__info-link"
+            href="krkr.design">krkr.design</a>
+        </p>
       </div>
+    </div>
 
-      <article class="where-go">
-        <section class="where-go__illustration">
-          <p class="tag">выбор наставника</p>
-          <h2 class="text-h2">Сплав на байдарках в две строки</h2>
-          <p class="text-podpis">усадьба Архангельское в две строки</p>
-          <img class="where-go__image" src="./image/where-go__image.jpg" alt="Люди на пляже, а я тут">
-          <a class="where-go__link" href="#" rel="noopener">перейти на сайт</a>
+  </footer>
 
-        </section>
-      </article>
-
-      <section class="questions"></section>
-      <section class="read-watch"></section>
-      <section class="rights"></section>
-      <section class="stories"></section>
-
-    </main>
-
-  </div>
+  <!-- >>>>>>> 48e17c7c40068833609ef81fe40c75bed574a0f3 -->
 </body>
 
 </html>

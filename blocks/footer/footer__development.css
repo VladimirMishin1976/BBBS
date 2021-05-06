@@ -1,0 +1,14 @@
+.footer__development {
+  margin: 0 30px 0 0;
+}
+
+.footer__development:last-of-type {
+  margin: 0;
+}
+
+@media (max-width: 490px) {
+
+  .footer__development {
+    margin: 0 0 5px;
+  }
+}

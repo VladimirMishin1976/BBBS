@@ -1,3 +1,4 @@
+
 @import url(../vendor/normalize.css);
 /*  */
 @import url(../blocks/root/root.css);
@@ -49,3 +50,24 @@
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
+
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/page__container.css");
+
+@import url("../blocks/navigation/navigation.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__button.css");
+@import url("../blocks/footer/footer__container.css");
+@import url("../blocks/footer/footer__copyright.css");
+@import url("../blocks/footer/footer__development.css");
+@import url("../blocks/footer/footer__info-link.css");
+@import url("../blocks/footer/footer__info.css");
+@import url("../blocks/footer/footer__line.css");
+@import url("../blocks/footer/footer__link.css");
+@import url("../blocks/footer/footer__logo.css");
+@import url("../blocks/footer/footer__navigation.css");
+@import url("../blocks/footer/footer__social.css");
+
