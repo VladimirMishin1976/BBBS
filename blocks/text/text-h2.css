@@ -12,3 +12,10 @@
 .text-h2_theme_dark {
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1400px) {
+  .text-h2 {
+    font-size: 19px;
+    line-height: 1.21;
+  }
+}

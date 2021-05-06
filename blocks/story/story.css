@@ -22,3 +22,9 @@
     height: 382px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .story {
+    height: 290px;
+  }
+}

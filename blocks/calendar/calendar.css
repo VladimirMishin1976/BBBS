@@ -16,8 +16,9 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .story {
+  .calendar {
     height: 382px;
+    padding: 30px 15px;
   }
 }
 
