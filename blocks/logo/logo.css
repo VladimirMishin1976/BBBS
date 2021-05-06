@@ -1,0 +1,11 @@
+.logo {}
+
+.logo_place_calendar {
+  width: 252px;
+}
+
+@media screen and (max-width: 1400px) {
+  .logo_place_calendar {
+    width: 164px;
+  }
+}

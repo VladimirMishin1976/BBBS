@@ -1,6 +1,31 @@
-.calendar__small-oval { 
+.calendar__small-oval {
   width: 535px;
   height: 156px;
   background: #FF8585;
-  border-radius: 30px 3px 200px 3px;  
+  border-radius: 30px 3px 200px 3px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .calendar__small-oval {
+    width: 395px;
+    height: 124px;
+    background: #FF8585;
+    border-radius: 30px 3px 200px 3px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .calendar__small-oval {
+    width: 267px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .calendar__small-oval {
+    width: 229px;
+    height: 78px;
+  }
 }

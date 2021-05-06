@@ -1,5 +1,4 @@
 .calendar__oval {
-  width: 100;
   height: 364px;
   background: #FF8585;
   border-radius: 400px;
@@ -7,4 +6,25 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
- }
+}
+
+@media screen and (max-width: 1500px) {
+  .calendar__oval {
+    height: 290px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .calendar__oval {
+    height: 292px;
+    border-radius: 70px 70px 0 0;
+    padding: 0 17px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .calendar__oval {
+    height: 255px;
+  }
+}

@@ -3,6 +3,7 @@
   background-color: #F3F2F2;
   padding: 0 75px;
   max-width: 1920px;
+  min-width: 290px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -11,7 +12,9 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+
+
+@media screen and (max-width: 1024px) {
   .content {
     padding: 0 calc(50vw - 385px);
   }

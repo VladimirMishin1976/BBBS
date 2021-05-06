@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 30px;
   height: 520px;
-  /* width: 870px; */
+  max-width: 870px;
   background-color: #ffffff;
   border-radius: 30px;
   display: flex;
@@ -30,4 +30,5 @@
   background-color: #8CDD94;
   padding: 0;
   overflow: hidden;
+  height: auto;
 }

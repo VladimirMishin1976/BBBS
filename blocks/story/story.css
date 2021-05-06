@@ -1,7 +1,7 @@
 .story {
   box-sizing: border-box;
   height: 520px;
-  /* width: 870px; */
+  max-width: 870px;
   background-image: url(../../image/story-bg.jpg);
   background-size: cover;
   background-position: center;
