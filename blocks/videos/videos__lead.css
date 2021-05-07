@@ -1,0 +1,30 @@
+.videos__lead {
+  margin-left: auto;
+  box-sizing: border-box;
+  width: 571px;
+  height: 675px;
+  background: #F8D162;
+  border-radius: 30px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .videos__lead {
+    width: calc(42vw - 233px);
+    height: calc(47vw - 221px);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .videos__lead {
+    padding: 15px;
+    order: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 30px 30px;
+  }
+}
+

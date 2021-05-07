@@ -1,0 +1,12 @@
+.videos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+}
+
+ @media screen and (max-width: 1200px) {
+  .videos {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
