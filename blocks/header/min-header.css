@@ -1,0 +1,12 @@
+.header_type_min {
+  display: none;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+
+.header_type_min {
+  display: flex;
+}
+
+}

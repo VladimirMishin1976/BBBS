@@ -1,0 +1,10 @@
+.header__navigation_type_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  max-width: 159px;
+  min-height: 216px;
+  padding: 0;
+  margin-right: 26px;
+}

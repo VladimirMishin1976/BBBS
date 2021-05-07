@@ -1,0 +1,5 @@
+.header__button_type_sity {
+  min-width: 170px;
+  display: flex;
+  justify-content: flex-start;
+}
