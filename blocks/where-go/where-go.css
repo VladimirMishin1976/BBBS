@@ -1,5 +1,12 @@
 .where-go {
   display: grid;
-  
-  height: 629px;
+  grid-template-columns: 1fr 585px;
+  grid-template-rows: 629px;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 188px;
+  }
 }

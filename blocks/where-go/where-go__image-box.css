@@ -1,0 +1,22 @@
+.where-go__image-box {
+  height: 394px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__image-box {
+    height: 346px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .where-go__image-box {
+    height: calc(29vw + 49px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .where-go__image-box {
+    height: 142px;
+  }
+}

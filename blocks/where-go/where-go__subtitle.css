@@ -1,0 +1,23 @@
+.where-go__subtitle {
+  margin-top: 5px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__subtitle {
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .where-go__subtitle {
+    margin-bottom: calc(3.3vw + 29px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .where-go__subtitle {
+    margin-bottom: 39px;
+  }
+}

@@ -1,0 +1,12 @@
+.where-go__article {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 47px 30px 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__article {
+    padding: 30px 7px 30px 15px;
+  }
+}

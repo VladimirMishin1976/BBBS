@@ -1,0 +1,10 @@
+.where-go__title {
+  margin-top: 17px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__title {
+    margin-top: 5px;
+  }
+}

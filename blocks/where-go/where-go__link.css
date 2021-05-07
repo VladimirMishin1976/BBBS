@@ -1,0 +1,18 @@
+.where-go__link {
+  font-family: "Proto Grotesk Web Light", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__link {
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}

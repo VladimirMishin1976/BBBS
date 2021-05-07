@@ -2,8 +2,9 @@
   box-sizing: border-box;
   height: 520px;
   max-width: 870px;
-  background-image: url(../../image/story-bg.jpg);
+  background-image: url(../../images/story-bg.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: 30px;
   display: flex;

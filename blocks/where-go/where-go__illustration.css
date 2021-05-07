@@ -1,8 +1,15 @@
 .where-go__illustration {
+  box-sizing: border-box;
+  padding: 17px 30px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #F8D162;
   border-radius: 30px;
-  
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__illustration {
+    padding: 17px 15px 15px;
+  }
 }

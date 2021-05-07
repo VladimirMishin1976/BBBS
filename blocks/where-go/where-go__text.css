@@ -1,0 +1,11 @@
+.where-go__text {
+  margin-top: 105px;
+  height: 390px;
+}
+
+@media screen and (max-width: 1200px) {
+  .where-go__text {
+    margin-top: 5px;
+    height: 106px;
+  }
+}
