@@ -1,0 +1,17 @@
+.quote{
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    max-width: 1770px;
+    max-height: 490px;
+    background-color: #C8D1FF;
+    text-align: center;
+    border-radius: 30px;
+}
+@media (max-width: 1260px) {
+
+    .quote {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+  }

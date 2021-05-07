@@ -1,0 +1,18 @@
+.frame-card__autor{
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #464646;
+    margin: 0;
+    padding-bottom: 17px;
+}
+@media (max-width:1024px) {
+    .frame-card__autor{
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

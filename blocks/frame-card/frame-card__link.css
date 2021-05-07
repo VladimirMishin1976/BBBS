@@ -1,0 +1,17 @@
+.frame-card__link{
+    padding-bottom: 15px;
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+}
+
+@media (max-width:1024px) {
+    .frame-card__link{
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

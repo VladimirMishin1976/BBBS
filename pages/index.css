@@ -51,6 +51,24 @@
 @import url(../blocks);
 @import url(../blocks);
 
+/*quote*/
+@import url("../blocks/quote/quote.css");
+@import url("../blocks/quote/quote__description.css");
+@import url("../blocks/quote/quote__link.css");
+/* frame-card */
+@import url("../blocks/frame-card/frame-card.css");
+@import url("../blocks/frame-card/frame-card__item.css");
+@import url("../blocks/frame-card/frame-card__image.css");
+@import url("../blocks/frame-card/frame-card__description.css");
+@import url("../blocks/frame-card/frame-card__name.css");
+@import url("../blocks/frame-card/frame-card__autor.css");
+@import url("../blocks/frame-card/frame-card__link.css");
+/* delet */
+@import url("../blocks/frame-card/delet/delet_four.css");
+@import url("../blocks/frame-card/delet/delet_free.css");
+@import url("../blocks/frame-card/delet/delet_two.css");
+
+
 @import url("../vendor/fonts/fonts.css");
 
 @import url("../blocks/page/page.css");
@@ -70,4 +88,7 @@
 @import url("../blocks/footer/footer__logo.css");
 @import url("../blocks/footer/footer__navigation.css");
 @import url("../blocks/footer/footer__social.css");
+
+
+
 
