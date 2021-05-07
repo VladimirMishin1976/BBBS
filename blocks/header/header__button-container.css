@@ -1,0 +1,10 @@
+.header__button-container {
+  background-image: url("../images/line.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 90px;
+  min-height: 30px;
+}

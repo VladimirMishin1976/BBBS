@@ -1,0 +1,9 @@
+.header__menu-button {
+  border: none;
+  font-family: 'PT-Root-UI', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1,4;
+    color: #A7A6A6;
+    background-color: rgba(256, 256, 256, 0);
+  }

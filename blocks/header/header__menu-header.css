@@ -1,0 +1,7 @@
+.header__menu-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 300px;
+  min-height: 50px;
+}

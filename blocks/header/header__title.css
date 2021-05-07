@@ -1,0 +1,16 @@
+.header__title {
+  color: #224CFF;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.12;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+
+  .header__title {
+    font-size: 17px;
+    line-height: 1.03;
+  }
+}

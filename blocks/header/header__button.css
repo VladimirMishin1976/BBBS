@@ -1,0 +1,8 @@
+.header__button {
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  border: 0;
+  padding: 15px;
+  background-color: rgba(256, 256, 256, 0);
+}

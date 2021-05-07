@@ -1,5 +1,36 @@
 @import url(../vendor/normalize.css);
 @import url("../vendor/fonts/fonts.css");
+/* */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/header__container.css");
+@import url("../blocks/header/header__button-container.css");
+@import url("../blocks/header/header__button.css");
+@import url("../blocks/header/header__button_type_lk.css");
+@import url("../blocks/header/header__button_type_menu.css");
+@import url("../blocks/header/header__button_type_search.css");
+@import url("../blocks/header/header__navigation.css");
+@import url("../blocks/header/header__title.css");
+@import url("../blocks/header/max-header.css");
+@import url("../blocks/header/min-header.css");
+
+
+@import url("../blocks/header/header__menu.css");
+@import url("../blocks/header/header__menu-header.css");
+@import url("../blocks/header/header__menu-button_type_search.css");
+@import url("../blocks/header/header__menu-button_type_lk.css");
+@import url("../blocks/header/header__menu-main.css");
+@import url("../blocks/header/header__navigation_type_menu.css");
+@import url("../blocks/header/header__menu-title.css");
+@import url("../blocks/header/header__menu-social.css");
+@import url("../blocks/header/header__button_type_close.css");
+@import url("../blocks/header/header__menu-footer.css");
+@import url("../blocks/header/header__link.css");
+@import url("../blocks/header/header__menu-button.css");
+@import url("../blocks/header/header__button_type_exit.css");
+@import url("../blocks/header/header__button_type_sity.css");
+@import url("../blocks/header/header__lk-autoriz.css");
+
+@import url("../blocks/window-closed/window_closed.css");
 /*  */
 
 @import url(../blocks/scroll/scroll.css);

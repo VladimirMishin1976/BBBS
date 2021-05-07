@@ -1,0 +1,4 @@
+/*иконка авторизированного пользователя*/
+.header__lk-autoriz {
+  background-image: url('../../images/lk-blue.svg');
+}
