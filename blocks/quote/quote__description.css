@@ -1,0 +1,28 @@
+.quote__description{
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 50px;
+    color: #1A1A1A;
+    max-width:970px;
+    max-height: 250px;
+    text-align: center;
+}
+
+@media (max-width: 1260px) {
+    .quote__description {
+    max-width:690px;
+    max-height: 69px;
+    font-size: 19px;
+    line-height: 23px;
+    padding-bottom: 181px;
+    }
+  }
+  @media (max-width: 750px) {
+    .quote__description {
+        margin: 0 15px;
+    }
+  }

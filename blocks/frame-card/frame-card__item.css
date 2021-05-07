@@ -1,0 +1,27 @@
+.frame-card__item{
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 0 auto;
+  max-width: 420px;
+  max-width: 408px;
+}
+@media (max-width:1440px) {
+  .frame-card__item{
+    max-height: 380px;
+  }
+}
+@media (max-width:1024px) {
+  .frame-card__item{
+    max-height: 358px;
+  }
+}
+
+@media (max-width:320px) {
+  .frame-card__item{
+    max-height: 310px;
+    max-width: 290px;
+  }
+}
