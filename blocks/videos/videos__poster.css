@@ -1,0 +1,23 @@
+.videos__poster {
+  width: 1199px;
+  height: 675px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1920px) {
+  .videos__poster {
+    width: calc(83vw - 397px);
+    height: calc(47vw - 221px);
+    object-fit: cover;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .videos__poster {
+    width: 100%;
+    height: calc(39vw + 41px);
+    border-radius: 30px 30px 0 0;
+  }
+}

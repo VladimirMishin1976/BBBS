@@ -1,4 +1,4 @@
-.where-go__link {
+.videos__link {
   font-family: "Proto Grotesk Web Light", "Arial", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -6,17 +6,25 @@
   line-height: 1.27;
   letter-spacing: 0.2px;
   color: #224CFF;
-  margin-top: 15px;
   text-decoration: none;
+  margin-top: auto;
 }
 
 .where-go__link:hover {
- cursor: pointer;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
-  .where-go__link {
+  .videos__link {
     font-size: 12px;
     line-height: 1.42;
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .videos__link {
+    
+    margin-top: 32px;
   }
 }
