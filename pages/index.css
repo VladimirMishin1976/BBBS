@@ -2,8 +2,6 @@
 @import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/page__container.css");
-/* scroll */
-
 /* */
 
 @import url("../blocks/header/header.css");
@@ -127,9 +125,8 @@
 @import url("../blocks/frame-card/delet/delet_four.css");
 @import url("../blocks/frame-card/delet/delet_free.css");
 @import url("../blocks/frame-card/delet/delet_two.css");
-@import url("../vendor/fonts/fonts.css");
-@import url("../blocks/page/page.css");
-@import url("../blocks/page/page__container.css");
+@import url("../blocks/frame-card/frame-card__container-text-tag.css");
+@import url("../blocks/frame-card/frame-card__tag-size.css");
 /* category */
 
 @import url("../blocks/category/category.css");
