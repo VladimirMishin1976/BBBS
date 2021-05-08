@@ -15,11 +15,18 @@ function closedMenu() {
 menuButton.addEventListener('click', openMenu);
 menuButtonClose.addEventListener('click', closedMenu);
 
-// Кнопка открытия попапа в календаре++++++++++++++++++++++++++++++++++++++++++
+// Кнопка открытия попапа записи в календаре++++++++++++++++++++++++++++++++++++++++++
 const popupCalendar = page.querySelector('.overlay_type_calendar');
 const buttonCalendar = page.querySelector('.button_place_calendar-points');
 buttonCalendar.addEventListener('click', () => {
   popupCalendar.classList.remove('window_closed');
+});
+
+// Кнопка открытия попапа - подтвердить запись - в календаре++++++++++++++++++++++++++++++++++++++
+const popupCalendarConfirm = page.querySelector('.overlay_type_calendar-conform');
+const buttonCalendarRecord = page.querySelector('.calendar').querySelector('.button_place_calendar');
+buttonCalendarRecord.addEventListener('click', () => {
+  popupCalendarConfirm.classList.remove('window_closed');
 });
 
 // Кнопка закрыть попап(оверлей)

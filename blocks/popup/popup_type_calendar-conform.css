@@ -1,0 +1,9 @@
+.popup_type_calendar-conform {
+  min-width: 302px;
+  box-sizing: border-box;
+  padding: 30px 15px;
+  max-width: 770px;
+  height: 670px;
+  width: calc(100vw - 30px);
+  justify-content: center;
+}

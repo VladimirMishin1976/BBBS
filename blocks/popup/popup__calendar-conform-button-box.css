@@ -1,0 +1,5 @@
+.popup__calendar-conform-button-box {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
