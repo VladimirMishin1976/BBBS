@@ -42,6 +42,7 @@
 @import url(../blocks/text/text-number.css);
 @import url(../blocks/text/text-tag.css);
 @import url(../blocks/text/text-body.css);
+@import url(../blocks/text/text-center.css);
 /*  content*/
 
 @import url(../blocks/content/content.css);
@@ -103,7 +104,9 @@
 @import url(../blocks/popup/popup__close.css);
 @import url(../blocks/popup/popup_type_calendar-conform.css);
 @import url(../blocks/popup/popup__calendar-conform-button-box.css);
-@import url(../blocks/popup/popup__calendar-conform-text.css);
+@import url(../blocks/popup/popup_type_calendar-succes.css);
+@import url(../blocks/popup/popup__calendar-succes-text.css);
+@import url(../blocks/popup/popup__calendar-succes-image.css);
 /* оверлей */
 
 @import url(../blocks/overlay/overlay.css);

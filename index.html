@@ -464,17 +464,32 @@
 
   <!-- Попап календарь - подтвердить запись  -->
   <div class="overlay overlay_type_calendar-conform window_closed">
-    <section class="popup  popup_type_calendar-conform">
+    <section class="popup popup_type_calendar-conform">
       <button class="popup__close" aria-label="Закрыть" type="button"></button>
-      <p class="text-h2 popup__calendar-conform-text">Подтвердить запись на мероприятие </p>
-      <p class="text-h2 popup__calendar-conform-text"> «Субботний meet up: учимся проходить интервью» </p>
-      <p class="text-h2 popup__calendar-conform-text"> 5 декабря с 12:00–14:00</p>
+      <p class="text-h2 text-center">Подтвердить запись на мероприятие </p>
+      <p class="text-h2 text-center"> «Субботний meet up: учимся проходить интервью» </p>
+      <p class="text-h2 text-center"> 5 декабря с 12:00–14:00</p>
 
       <div class="popup__calendar-conform-button-box">
         <button class="button button_place_calendar">Подтвердить запись</button>
         <button class="button">Отменить</button>
       </div>
+    </section>
+  </div>
 
+  <!-- Попап календарь - подтвердить запись СКРЫТ КЛАССОМ window_closed -->
+  <div class="overlay overlay_type_calendar-succes ">
+    <section class="popup popup_type_calendar-succes">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <img class="popup__calendar-succes-image" src="./images/calendar__success.svg" alt="запись успешна">
+      <div class="popup__calendar-succes-text">
+        <p class="text-h2 text-center">Вы записаны на мероприятие</p>
+        <p class="text-h2 text-center">«Субботний meet up: учимся проходить интервью»</p>
+        <p class="text-h2 text-center">5 декабря с 12:00–14:00.</p>
+        <br>
+        <p class="text-h2 text-center">Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
+      </div>
+      <button class="button">Вернуться к календарю</button>
     </section>
   </div>
 
