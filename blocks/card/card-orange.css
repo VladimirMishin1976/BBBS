@@ -1,0 +1,9 @@
+.card-orange{
+    background: #FF8585;
+
+}
+@media (max-width:1024px) {
+    .card-orange{
+        display: block;
+    }
+}

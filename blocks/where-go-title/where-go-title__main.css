@@ -1,0 +1,11 @@
+.where-go-title__main{
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
