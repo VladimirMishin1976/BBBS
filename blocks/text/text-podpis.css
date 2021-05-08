@@ -9,10 +9,6 @@
   margin: 0;
 }
 
-.text-podpis_style_dark-gray {
-  color: #464646;
-}
-
 @media screen and (max-width: 1400px) {
   .text-podpis {
     font-size: 12px;

@@ -60,6 +60,7 @@
 @import url(../blocks/calendar/calendar__link.css);
 @import url(../blocks/calendar/calendar__oval.css);
 @import url(../blocks/calendar/calendar__description.css);
+
 /*story  */
 
 @import url(../blocks/story/story.css);
@@ -94,12 +95,20 @@
 @import url(../blocks/videos/videos__subtitle.css);
 @import url(../blocks/videos/videos__poster.css);
 @import url(../blocks/videos/videos__title.css);
-/*  */
+/* popup */
 
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened.css);
+@import url(../blocks/popup/popup_type_calendar-registration.css);
+@import url(../blocks/popup/popup__calendar-contain.css);
+@import url(../blocks/popup/popup__underline.css);
+@import url(../blocks/popup/popup__calendar-text.css);
+@import url(../blocks/popup/popup__close.css);
+
+/* оверлей */
+@import url(../blocks/overlay/overlay.css);
+@import url(../blocks/window-closed/window_closed.css);
+
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
