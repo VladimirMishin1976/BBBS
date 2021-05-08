@@ -284,7 +284,85 @@
       </div>
     </article>
 
+    <section class="category">
+      <img  class="category__img" src="./images/category-img.png" alt="">
+  
+      <div class="category__items-container">
+  
+        <div class="category__item">
+          <p class="category__description">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что делать?</p>
+          <div class="category__btn">рубрика</div>
+        </div>
+  
+        <div class="category__item">
+          <p class="category__description">Возможно ли продлить срок участия в программе, если и я и мой «младший» хотим остаться в программе?</p>
+          <div class="category__btn">рубрика</div>
+        </div>
+  
+        <div class="category__item visible">
+          <p class="category__description ">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой и друзьями?</p>
+          <div class="category__btn">рубрика</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote  quote-green">
+      <p class="quote__description">Развитие детей-сирот отличается от развития детей, живущих в семьях. Все этапы
+        развития у детей-сирот проходят с искажениями и имеют ряд негативных &shy;особенностей. </p>
+      <a class="quote__link" href="#">читать статью</a>
+    </section>
+
+<!-- попапы входа в личный кабинет и выбора города открываются windows_closed -->
+<article class="overlay overlay_type_sity window_closed">
+  <div class="popup popup__sity">
+    <h2 class="popup__sity-title text-h2">Выберете ваш город</h2>
+    <div class="popup__sity-main">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Москва</button>
+      <button class="popup__sity-button tag-bottom" type="button"
+        aria-label="Выбрать город">Санкт-Петербуррг</button>
+    </div>
+    <div class="popup__sity-line"></div>
+    <div class="popup__sity-others">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Алексин</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Барнаул</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Екатеринбург</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Зубцов</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Калининград</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Киреевск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Коломна</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Новомосковск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Орехово-Зуево</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тверь</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тула</button>
+    </div>
+  </div>
+</article>
+
+<article class="overlay overlay_type_entrance window_closed">
+  <div class="popup popup__entrance">
+    <h2 class="popup__entrance-title text-h2">Вход</h2>
+    <p class="popup__entrance-text text-body">Вход в личный кабинет доступен наставникам программы
+      «Старшие Братья Старшие Сёстры» </p>
+    <p class="popup__entrance-text text-body">Пожалуйста, введите логин и пароль из
+      письма. Если вам не приходило письмо, свяжитесь с вашим куратором. </p>
+    <form name="entrance" class="popup__entrance-form">
+      <input type="text" class="popup__entrance-input popup__ientrance-nput_type_login text-podpis" name="login"
+        placeholder="Логин">
+      <input type="text" class="popup__entrance-input popup__entrance-input_type_password text-podpis"
+        name="password" placeholder="Пароль">
+      <button class="popup__entrance-button popup__entrance-button_type_forgot text-podpis" type="button">Забыли
+        пароль?</button>
+      <button class="popup__entrance-button popup__entrance-button_type_entrance tag-bottom"
+        type="button">Войти</button>
+    </form>
+    <button class="popup__entrance-button popup__entrance-button_type_close" type="button"
+      aria-label="Закрыть"></button>
+  </div>
+</article>
+
+
   </main>
+  
 
   <footer class="footer page__container">
 
