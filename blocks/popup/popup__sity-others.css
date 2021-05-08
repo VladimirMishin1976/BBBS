@@ -1,0 +1,6 @@
+.popup__sity-others {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}

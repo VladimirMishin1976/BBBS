@@ -1,0 +1,8 @@
+.popup__entrance-button_type_entrance {
+  min-width: 85px;
+  min-height: 48px;
+  border: 1px solid #A7A6A6;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #A7A6A6;
+}

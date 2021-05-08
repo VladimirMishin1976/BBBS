@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url("../vendor/fonts/fonts.css");
 
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/page__container.css");
+
 /* scroll */
 /* */
 @import url("../blocks/header/header.css");
@@ -12,6 +15,7 @@
 @import url("../blocks/header/header__button_type_search.css");
 @import url("../blocks/header/header__navigation.css");
 @import url("../blocks/header/header__title.css");
+@import url("../blocks/header/header__title-link.css");
 @import url("../blocks/header/max-header.css");
 @import url("../blocks/header/min-header.css");
 
@@ -28,11 +32,12 @@
 @import url("../blocks/header/header__menu-footer.css");
 @import url("../blocks/header/header__link.css");
 @import url("../blocks/header/header__menu-button.css");
-@import url("../blocks/header/header__button_type_exit.css");
-@import url("../blocks/header/header__button_type_sity.css");
+@import url("../blocks/header/header__menu-button_type_exit.css");
+@import url("../blocks/header/header__menu-button_type_sity.css");
 @import url("../blocks/header/header__lk-autoriz.css");
+@import url("../blocks/header/header__title-link.css");
 
-@import url("../blocks/window-closed/window_closed.css");
+
 /*  */
 
 
@@ -107,7 +112,7 @@
 
 /* оверлей */
 @import url(../blocks/overlay/overlay.css);
-@import url(../blocks/window-closed/window_closed.css);
+
 
 @import url(../blocks);
 @import url(../blocks);
@@ -133,12 +138,28 @@
 @import url("../blocks/frame-card/delet/delet_four.css");
 @import url("../blocks/frame-card/delet/delet_free.css");
 @import url("../blocks/frame-card/delet/delet_two.css");
-@import url("../vendor/fonts/fonts.css");
-@import url("../blocks/page/page.css");
-@import url("../blocks/page/page__container.css");
+
 /*  */
 
 @import url("../blocks/navigation/navigation.css");
+
+/* стили попапов */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup__entrance.css);
+@import url(../blocks/popup/popup__entrance-title.css);
+@import url(../blocks/popup/popup__entrance-text.css);
+@import url(../blocks/popup/popup__entrance-input.css);
+@import url(../blocks/popup/popup__entrance-form.css);
+@import url(../blocks/popup/popup__entrance-button_type_forgot.css);
+@import url(../blocks/popup/popup__entrance-button_type_entrance.css);
+@import url(../blocks/popup/popup__entrance-button_type_close.css);
+@import url(../blocks/popup/popup__sity.css);
+@import url(../blocks/popup/popup__sity-title.css);
+@import url(../blocks/popup/popup__sity-others.css);
+@import url(../blocks/popup/popup__sity-main.css);
+@import url(../blocks/popup/popup__sity-line.css);
+@import url(../blocks/popup/popup__sity-button.css);
+
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/footer__button.css");
 @import url("../blocks/footer/footer__container.css");
@@ -151,6 +172,9 @@
 @import url("../blocks/footer/footer__logo.css");
 @import url("../blocks/footer/footer__navigation.css");
 @import url("../blocks/footer/footer__social.css");
+
+/* пусть лежит в самом конце*/
+@import url("../blocks/window-closed/window_closed.css");
 /* Убрать скролл на на время адаптивки*/
 
 html::-webkit-scrollbar {

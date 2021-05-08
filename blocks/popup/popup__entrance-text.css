@@ -1,0 +1,21 @@
+.popup__entrance-text {
+  max-width: 547px;
+  margin: 0 0 50px;
+}
+
+@media (max-width: 1200px) {
+
+  .popup__entrance-text {
+    margin: 0 0 40px;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .popup__entrance-text {
+    max-width: 260px;
+    margin: 0 0 30px;
+  }
+
+}

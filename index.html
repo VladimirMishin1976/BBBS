@@ -15,7 +15,7 @@
 
     <!-- обычный вариант хедера для экранов от 1200рх-->
     <div class="header__container page__container header_type_max">
-      <h1 class="header__title">наставники.про</h1>
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
 
       <nav>
         <ul class="navigation header__navigation">
@@ -38,7 +38,7 @@
     <!--  Хедер на экранах меньше 1200рх-->
     <div class="header__container page__container header_type_min">
       <button class="header__button header__button_type_search" type="button" aria-label="Поиск"></button>
-      <h1 class="header__title">наставники.про</h1>
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
       <button class="header__button header__button_type_menu" type="button" aria-label="Меню"></button>
 
       <!--  выпадающее меню из бургера -->
@@ -48,7 +48,7 @@
             aria-label="Поиск"></button>
           <button class="header__button header__button_type_lk header__menu-button_type_lk" type="button"
             aria-label="Личный кабинет"></button>
-          <h1 class="header__title header__menu-title">наставники.про</h1>
+          <h1 class="header__title header__menu-title"><a class="header__title-link" href="#">наставники.про</a></h1>
           <button class="header__button header__button_type_close" type="button" aria-label="Закрыть"></button>
         </div>
 
@@ -235,6 +235,55 @@
       </section>
       <img class="videos__poster" src="./images/videos__poster.jpg" alt="Постер видео">
     </section>
+
+<!-- попапы входа в личный кабинет и выбора города открываются windows_closed -->
+<article class="overlay overlay_type_sity window_closed">
+  <div class="popup popup__sity">
+    <h2 class="popup__sity-title text-h2">Выберете ваш город</h2>
+    <div class="popup__sity-main">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Москва</button>
+      <button class="popup__sity-button tag-bottom" type="button"
+        aria-label="Выбрать город">Санкт-Петербуррг</button>
+    </div>
+    <div class="popup__sity-line"></div>
+    <div class="popup__sity-others">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Алексин</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Барнаул</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Екатеринбург</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Зубцов</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Калининград</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Киреевск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Коломна</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Новомосковск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Орехово-Зуево</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тверь</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тула</button>
+    </div>
+  </div>
+</article>
+
+<article class="overlay overlay_type_entrance window_closed">
+  <div class="popup popup__entrance">
+    <h2 class="popup__entrance-title text-h2">Вход</h2>
+    <p class="popup__entrance-text text-body">Вход в личный кабинет доступен наставникам программы
+      «Старшие Братья Старшие Сёстры» </p>
+    <p class="popup__entrance-text text-body">Пожалуйста, введите логин и пароль из
+      письма. Если вам не приходило письмо, свяжитесь с вашим куратором. </p>
+    <form name="entrance" class="popup__entrance-form">
+      <input type="text" class="popup__entrance-input popup__ientrance-nput_type_login text-podpis" name="login"
+        placeholder="Логин">
+      <input type="text" class="popup__entrance-input popup__entrance-input_type_password text-podpis"
+        name="password" placeholder="Пароль">
+      <button class="popup__entrance-button popup__entrance-button_type_forgot text-podpis" type="button">Забыли
+        пароль?</button>
+      <button class="popup__entrance-button popup__entrance-button_type_entrance tag-bottom"
+        type="button">Войти</button>
+    </form>
+    <button class="popup__entrance-button popup__entrance-button_type_close" type="button"
+      aria-label="Закрыть"></button>
+  </div>
+</article>
+
   </main>
 
   <footer class="footer page__container">
