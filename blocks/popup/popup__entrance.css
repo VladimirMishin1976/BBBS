@@ -1,0 +1,23 @@
+.popup__entrance {
+  max-width: 770px;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+
+  .popup__entrance {
+    max-width: 400px;
+    padding: 50px 50px;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .popup__entrance {
+    max-width: 320px;
+    padding: 60px 15px 50px;
+  }
+
+}

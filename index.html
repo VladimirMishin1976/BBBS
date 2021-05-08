@@ -15,7 +15,7 @@
 
     <!-- обычный вариант хедера для экранов от 1200рх-->
     <div class="header__container page__container header_type_max">
-      <h1 class="header__title">наставники.про</h1>
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
 
       <nav>
         <ul class="navigation header__navigation">
@@ -38,7 +38,7 @@
     <!--  Хедер на экранах меньше 1200рх-->
     <div class="header__container page__container header_type_min">
       <button class="header__button header__button_type_search" type="button" aria-label="Поиск"></button>
-      <h1 class="header__title">наставники.про</h1>
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
       <button class="header__button header__button_type_menu" type="button" aria-label="Меню"></button>
 
       <!--  выпадающее меню из бургера -->
@@ -48,7 +48,7 @@
             aria-label="Поиск"></button>
           <button class="header__button header__button_type_lk header__menu-button_type_lk" type="button"
             aria-label="Личный кабинет"></button>
-          <h1 class="header__title header__menu-title">наставники.про</h1>
+          <h1 class="header__title header__menu-title"><a class="header__title-link" href="#">наставники.про</a></h1>
           <button class="header__button header__button_type_close" type="button" aria-label="Закрыть"></button>
         </div>
 
@@ -236,6 +236,7 @@
       <img class="videos__poster" src="./images/videos__poster.jpg" alt="Постер видео">
     </section>
 
+
     <section class="category">
       <img  class="category__img" src="./images/category-img.png" alt="">
   
@@ -263,6 +264,56 @@
         развития у детей-сирот проходят с искажениями и имеют ряд негативных &shy;особенностей. </p>
       <a class="quote__link" href="#">читать статью</a>
     </section>
+
+<!-- попапы входа в личный кабинет и выбора города открываются windows_closed -->
+<article class="overlay overlay_type_sity window_closed">
+  <div class="popup popup__sity">
+    <h2 class="popup__sity-title text-h2">Выберете ваш город</h2>
+    <div class="popup__sity-main">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Москва</button>
+      <button class="popup__sity-button tag-bottom" type="button"
+        aria-label="Выбрать город">Санкт-Петербуррг</button>
+    </div>
+    <div class="popup__sity-line"></div>
+    <div class="popup__sity-others">
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Алексин</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Барнаул</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Екатеринбург</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Зубцов</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Калининград</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Киреевск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Коломна</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Новомосковск</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Орехово-Зуево</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тверь</button>
+      <button class="popup__sity-button tag-bottom" type="button" aria-label="Выбрать город">Тула</button>
+    </div>
+  </div>
+</article>
+
+<article class="overlay overlay_type_entrance window_closed">
+  <div class="popup popup__entrance">
+    <h2 class="popup__entrance-title text-h2">Вход</h2>
+    <p class="popup__entrance-text text-body">Вход в личный кабинет доступен наставникам программы
+      «Старшие Братья Старшие Сёстры» </p>
+    <p class="popup__entrance-text text-body">Пожалуйста, введите логин и пароль из
+      письма. Если вам не приходило письмо, свяжитесь с вашим куратором. </p>
+    <form name="entrance" class="popup__entrance-form">
+      <input type="text" class="popup__entrance-input popup__ientrance-nput_type_login text-podpis" name="login"
+        placeholder="Логин">
+      <input type="text" class="popup__entrance-input popup__entrance-input_type_password text-podpis"
+        name="password" placeholder="Пароль">
+      <button class="popup__entrance-button popup__entrance-button_type_forgot text-podpis" type="button">Забыли
+        пароль?</button>
+      <button class="popup__entrance-button popup__entrance-button_type_entrance tag-bottom"
+        type="button">Войти</button>
+    </form>
+    <button class="popup__entrance-button popup__entrance-button_type_close" type="button"
+      aria-label="Закрыть"></button>
+  </div>
+</article>
+
+
   </main>
   
 
@@ -305,6 +356,44 @@
     </div>
 
   </footer>
+
+  <!-- Попап календарь - запись  Все попапы открывать классом popup_opened -->
+  <div class="overlay window_closed overlay_type_calendar">
+    <section class="popup  popup_type_calendar-registration">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <div class="popup__calendar-contain">
+        <p class="text-podpis">Волонтёры + дети</p>
+        <p class="text-podpis">декабрь / понедельник</p>
+      </div>
+
+      <div class="popup__calendar-contain">
+        <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+        <p class="text-number">05</p>
+      </div>
+
+      <p class="text-podpis">12:00–14:00</p>
+      <div class="popup__underline"></div>
+
+      <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+      <div class="popup__underline"></div>
+
+      <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+      <p class="text-body popup__calendar-text scroll">Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и
+        ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на
+        встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и
+        внутреннего ресурса для общения и взаимодействия с нашими подопечными.Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и
+        ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на
+        встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и
+        внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+
+      <div class="popup__calendar-contain popup__calendar-contain_button-box">
+        <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+        <p class="text-podpis">Осталось 5 мест</p>
+      </div>
+    </section>
+  </div>
+
   <script src="scripts/index.js"></script>
 </body>
 

@@ -1,0 +1,9 @@
+.popup__sity-button {
+  margin: 0 0 10px 0;
+  border: none;
+  background-color: rgba(256, 256, 256, 0);
+}
+
+.popup__sity-button:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,51 @@
+.popup__entrance-input {
+  min-width: 570px;
+  min-height: 48px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f3f2f2;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 0  0 20px; 
+  text-align: left;
+  
+}
+
+.popup__entrance-input::-webkit-input-placeholder {
+  color:#A7A6A6;
+}
+
+.popup__entrance-input::-moz-placeholder          {
+  color:#A7A6A6;
+}
+
+.popup__entrance-input::-ms-input-placeholder     {
+  color: #A7A6A6;
+}
+
+.popup__entrance-input::placeholder  {
+  color:#A7A6A6;
+}
+
+@media (max-width: 1200px) {
+
+  .popup__entrance-input {
+    min-width: 350px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  
+  .popup__entrance-input {
+    min-width: 260px;
+    min-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .popup__entrance-input:last-child {
+    margin-bottom: 20px;
+  }
+
+
+}

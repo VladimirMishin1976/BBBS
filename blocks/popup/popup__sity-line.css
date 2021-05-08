@@ -1,0 +1,16 @@
+.popup__sity-line {
+  background-image: url("../images/line-popup.svg");
+  min-width: 370px;
+  min-height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 410px) {
+
+  .popup__sity-line {
+    min-width: 290px;
+  }
+ 
+
+}

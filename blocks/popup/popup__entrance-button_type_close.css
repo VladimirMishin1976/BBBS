@@ -1,0 +1,23 @@
+.popup__entrance-button_type_close {
+  background-image: url("../images/x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: rgba(256, 256, 256, 0);
+  max-width: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+@media (max-width: 550px) {
+
+  .popup__entrance-button_type_close {
+    top: 15px;
+    right: 15px;
+  }
+
+}

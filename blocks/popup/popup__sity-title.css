@@ -1,0 +1,11 @@
+.popup__sity-title {
+  margin: 0 0 30px;
+}
+
+@media (max-width: 410px) {
+
+  .popup__sity-title {
+    margin: 0 0 50px;
+  }
+
+}
