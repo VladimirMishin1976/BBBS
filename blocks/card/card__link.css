@@ -1,0 +1,10 @@
+.card__link{
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+}

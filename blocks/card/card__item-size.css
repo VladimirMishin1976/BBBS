@@ -1,0 +1,6 @@
+.card__item-size{
+    width: 130px;
+    height: 17px;
+    margin: 0 auto;
+    transform: translate(0%, -100%);
+}

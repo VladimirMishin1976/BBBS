@@ -153,6 +153,28 @@
 @import url("../blocks/category/category__items-container.css");
 @import url("../blocks/category/visible.css");
 
+/* card */
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/card__item.css");
+@import url("../blocks/card/card__item-size.css");
+@import url("../blocks/card/card__header.css");
+@import url("../blocks/card/card-green.css");
+@import url("../blocks/card/card-yellow.css");
+@import url("../blocks/card/card-orange.css");
+@import url("../blocks/card/card__footer.css");
+@import url("../blocks/card/card__description.css");
+@import url("../blocks/card/card__name.css");
+@import url("../blocks/card/card__address.css");
+@import url("../blocks/card/card__link.css");
+@import url("../blocks/card/card__category.css");
+@import url("../blocks/card/free.css");
+@import url("../blocks/card/two.css");
+
+/* where-go-title */
+@import url("../blocks/where-go-title/where-go-title__main.css");
+@import url("../blocks/where-go-title/where-go-title.css");
+
+
 /*  */
 
 
@@ -202,3 +224,4 @@ html::-webkit-scrollbar {
 html {
   scrollbar-width: none;
 }
+

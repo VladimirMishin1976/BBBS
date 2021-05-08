@@ -1,0 +1,11 @@
+.card__footer{
+    max-width: 570px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-height: 222px;
+    padding: 30px;
+}
