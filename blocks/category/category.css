@@ -1,0 +1,11 @@
+.category{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 651px) {
+
+    .category{
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
