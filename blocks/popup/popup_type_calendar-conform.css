@@ -7,3 +7,10 @@
   width: calc(100vw - 30px);
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .popup_type_calendar-conform {
+    height: auto;
+    padding: 100px 15px 100px;
+  }
+}
