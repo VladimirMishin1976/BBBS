@@ -1,5 +1,18 @@
-.button_container-where-go-age{
+.button_container-where-go-age {
+    max-width: 793px;
+    width: 90vw;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.button_container-where-go-age::after {
+    content: '';
+    right: 0;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(270deg, #F7F5F5 0%, rgba(255, 255, 255, 0) 100%);
 }

@@ -1,5 +1,17 @@
-.button_container-where-go{
-    /* display: block; */
-    margin: 0 auto;
-    max-width: 793px;
+.button_container-where-go {
+    margin: auto;
+    max-width: 900px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button_container-where-go::after {
+    content: '';
+    right: 0;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(270deg, #F7F5F5 0%, rgba(255, 255, 255, 0) 100%);
 }

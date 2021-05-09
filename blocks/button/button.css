@@ -1,5 +1,5 @@
-.button {
-  min-width: 48px;
+.button {    
+  min-width: fit-content;
   height: 48px;
   border-radius: 50px;
   border: 1px solid #000000;
@@ -22,7 +22,6 @@
   .button {
     padding: 0 15px;
     height: 40px;
-    min-width: 40px;
     font-size: 12px;
     line-height: 17px;
   }

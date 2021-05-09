@@ -171,6 +171,7 @@
 @import url("../blocks/where-go-title/button_container-where-go.css");
 @import url("../blocks/where-go-title/button_container-where-go-age.css");
 @import url("../blocks/where-go-title/where-go-btn_button.css");
+@import url("../blocks/where-go/where-go__button-box.css");
 /*  */
 
 @import url("../blocks/navigation/navigation.css");
@@ -205,15 +206,3 @@
 /* пусть лежит в самом конце*/
 
 @import url("../blocks/window-closed/window_closed.css");
-/* Убрать скролл на на время адаптивки*/
-
-html::-webkit-scrollbar {
-  width: 0;
-  /* ширина для вертикального скролла */
-  /* height: 8px; высота для горизонтального скролла */
-  background-color: red;
-}
-
-html {
-  scrollbar-width: none;
-}
