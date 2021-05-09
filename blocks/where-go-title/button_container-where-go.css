@@ -1,5 +1,13 @@
 .button_container-where-go{
     /* display: block; */
     margin: 0 auto;
-    max-width: 793px;
+   
+    
 }
+/* @media screen and (max-width: 320px) {
+    .button_container-where-go {
+        max-width:300px;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+  } */

@@ -1,0 +1,8 @@
+@media screen and (max-width: 320px) {
+        .where-go-title_scroll {
+            max-width:320px;
+            white-space: nowrap;
+            overflow-x: scroll;
+            background: linear-gradient(270deg,#F7F5F5  -106%, rgba(255, 255, 255, 0) 20%)
+        }
+}
