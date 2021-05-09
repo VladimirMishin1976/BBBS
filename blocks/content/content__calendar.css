@@ -1,7 +1,7 @@
 .content__calendar {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px
+  gap: 30px;
 }
 
 @media screen and (max-width: 720px) {

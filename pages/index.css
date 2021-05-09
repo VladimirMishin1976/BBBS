@@ -43,10 +43,12 @@
 @import url(../blocks/text/text-tag.css);
 @import url(../blocks/text/text-body.css);
 @import url(../blocks/text/text-center.css);
+@import url(../blocks/text/text-page-title.css);
 /*  content*/
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/content__calendar.css);
+@import url(../blocks/content/content__calendar_page_calendar.css);
 /* calendar */
 
 @import url(../blocks/calendar/calendar.css);
@@ -59,6 +61,10 @@
 @import url(../blocks/calendar/calendar__link.css);
 @import url(../blocks/calendar/calendar__oval.css);
 @import url(../blocks/calendar/calendar__description.css);
+@import url(../blocks/calendar/calendar_page_calendar.css);
+/*  */
+
+@import url(../blocks/calendar-page/calendar-page__button-box.css);
 /*story  */
 
 @import url(../blocks/story/story.css);
@@ -69,6 +75,8 @@
 @import url(../blocks/button/button_place_calendar.css);
 @import url(../blocks/button/button_place_calendar-points.css);
 @import url(../blocks/button/button_place_calendar-choosen.css);
+@import url(../blocks/button/button_state_inactive.css);
+@import url(../blocks/button/button_state_choosen.css);
 /*  */
 
 @import url(../blocks/logo/logo.css);
