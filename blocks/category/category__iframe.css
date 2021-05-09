@@ -1,0 +1,30 @@
+.category__iframe {
+    object-fit: cover;
+    width: 420px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+@media (max-width: 1500px) {
+    .category__iframe {
+
+        width: 370px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .category__iframe {
+        height: 552px;
+    }
+}
+
+@media (max-width: 651px) {
+    .category__iframe {
+        max-width: 370px;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        height: 433px;
+    }
+}

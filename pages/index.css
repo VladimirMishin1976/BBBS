@@ -141,7 +141,7 @@
 /* category */
 
 @import url("../blocks/category/category.css");
-@import url("../blocks/category/category__img.css");
+@import url("../blocks/category/category__iframe.css");
 @import url("../blocks/category/category__item.css");
 @import url("../blocks/category/category__description.css");
 @import url("../blocks/category/category__btn.css");
