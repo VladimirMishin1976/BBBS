@@ -1,0 +1,8 @@
+.calendar_page_calendar {
+  height: 414px;
+}
+
+@media screen and (max-width: 1150px) {
+  .calendar_page_calendar {
+    height: 382px;
+  }}

@@ -11,18 +11,18 @@
 
 @media screen and (max-width: 1500px) {
   .content {
-    padding: 85px 135px 120px;
+    padding: 75px 135px 120px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .content {
-    padding: 50px calc(50vw - 385px) 100px;
+    padding: 5px calc(50vw - 385px) 100px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .content {
-    padding: 30px 15px 50px;
+    padding: 5px 15px 50px;
   }
 }

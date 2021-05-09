@@ -1,0 +1,9 @@
+.button_state_choosen {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.button_state_choosen:hover {
+  background-color: #2E2468;
+  border-color: #2E2468;
+}

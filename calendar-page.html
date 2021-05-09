@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBBS Календарь</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+
+    <!-- обычный вариант хедера для экранов от 1200рх-->
+    <div class="header__container page__container header_type_max">
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
+
+      <nav>
+        <ul class="navigation header__navigation">
+          <li>О проекте</li>
+          <li>Календарь</li>
+          <li>Куда пойти</li>
+          <li>Вопросы</li>
+          <li>Читать и смотреть</li>
+          <li>Права детей</li>
+          <li>Истории</li>
+        </ul>
+      </nav>
+
+      <div class="header__button-container">
+        <button class="header__button header__button_type_search" type="button" aria-label="Поиск"></button>
+        <button class="header__button header__button_type_lk" type="button" aria-label="Личный кабинет"></button>
+      </div>
+    </div>
+
+    <!--  Хедер на экранах меньше 1200рх-->
+    <div class="header__container page__container header_type_min">
+      <button class="header__button header__button_type_search" type="button" aria-label="Поиск"></button>
+      <h1 class="header__title"><a class="header__title-link" href="#">наставники.про</a></h1>
+      <button class="header__button header__button_type_menu" type="button" aria-label="Меню"></button>
+
+      <!--  выпадающее меню из бургера -->
+      <div class="header__menu window_closed">
+        <div class="header__menu-header">
+          <button class="header__button header__button_type_search header__menu-button_type_search" type="button"
+            aria-label="Поиск"></button>
+          <button class="header__button header__button_type_lk header__menu-button_type_lk" type="button"
+            aria-label="Личный кабинет"></button>
+          <h1 class="header__title header__menu-title"><a class="header__title-link" href="#">наставники.про</a></h1>
+          <button class="header__button header__button_type_close" type="button" aria-label="Закрыть"></button>
+        </div>
+
+        <div class="header__menu-main">
+          <nav>
+            <ul class="navigation header__navigation_type_menu">
+              <li>О проекте</li>
+              <li>Календарь</li>
+              <li>Куда пойти</li>
+              <li>Вопросы</li>
+              <li>Читать и смотреть</li>
+              <li>Права детей</li>
+              <li>Истории</li>
+            </ul>
+          </nav>
+
+          <ul class="navigation header__menu-social">
+            <li><a class="header__link" href="#">Facebook</a></li>
+            <li><a class="header__link" href="#">VKontakte</a></li>
+            <li><a class="header__link" href="#">Instagram</a></li>
+            <li><a class="header__link" href="#">Уoutube</a></li>
+          </ul>
+        </div>
+
+        <!--  кнопки выбора города и выхода только для авторизированных пользователей-->
+        <div class="header__menu-footer window_closed">
+          <button class="header__menu-button header__button_type_sity" type="button" aria-label="Закрыть">Изменить
+            город</button>
+          <button class="header__menu-button header__button_type_exit" type="button" aria-label="Закрыть">Выйти</button>
+        </div>
+      </div>
+      <!--  окончание кода выпадающего меню-->
+    </div>
+    <!--  конец мини хедера-->
+
+  </header>
+
+  <main class="content">
+    <h1 class="text-page-title">Календарь</h1>
+    <section class="calendar-page__button-box">
+      <button class="button button_state_choosen" type="button">Декабря</button>
+      <button class="button" type="button">Январь</button>
+    </section>
+
+    <!-- Календарь  -->
+    <ul class="content__calendar content__calendar_page_calendar">
+      <!-- Календарь - 1_____стили состояний в коде index.html___________________________________________________________ -->
+      <li>
+        <section class="calendar calendar_signed calendar_page_calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+            <p class="text-number">05</p>
+          </div>
+
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <button class="button button_place_calendar button_place_calendar-choosen" type="button"
+                aria-label="Записаться">Отменить запись</button>
+              <p class="text-podpis">Осталось 5 мест</p>
+            </div>
+            <button class="button button_place_calendar-points" type="button"></button>
+          </div>
+        </section>
+      </li>
+      <!-- 2 -->
+      <li>
+        <section class="calendar calendar_page_calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Ресурсная группа «Вовлечение в волонтёрство»</h2>
+            <p class="text-number">16</p>
+          </div>
+
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <button class="button button_state_inactive" type="button" aria-label="Записаться">Записаться</button>
+              <p class="text-podpis">Запись закрыта</p>
+            </div>
+            <button class="button button_place_calendar-points " type="button"></button>
+          </div>
+        </section>
+      </li>
+      <!-- 3 -->
+      <li>
+        <section class="calendar calendar_page_calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Занятие с выпускниками: как составить резюме</h2>
+            <p class="text-number">20</p>
+          </div>
+
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+              <p class="text-podpis">Осталось 5 мест</p>
+            </div>
+            <button class="button button_place_calendar-points " type="button"></button>
+          </div>
+        </section>
+      </li>
+      <!-- 4 -->
+      <li>
+        <section class="calendar calendar_page_calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+            <p class="text-number">23</p>
+          </div>
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+              <p class="text-podpis">Осталось 5 мест</p>
+            </div>
+            <button class="button button_place_calendar-points " type="button"></button>
+          </div>
+        </section>
+      </li>
+      <!-- 5  -->
+      <li>
+        <section class="calendar calendar_page_calendar">
+          <div class="calendar__contain">
+            <p class="text-podpis text-podpis_style_dark-gray">Волонтёры + дети</p>
+            <p class="text-podpis">декабрь / понедельник</p>
+          </div>
+
+          <div class="calendar__contain">
+            <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+            <p class="text-number">28</p>
+          </div>
+
+          <p class="text-podpis">12:00–14:00</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <div class="calendar__underline"></div>
+
+          <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+          <div class="calendar__contain">
+            <div class="calendar__button-box">
+              <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+              <p class="text-podpis">Осталось 5 мест</p>
+            </div>
+            <button class="button button_place_calendar-points " type="button"></button>
+          </div>
+        </section>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="footer page__container">
+
+    <div class="footer__container">
+      <img class="footer__logo" alt="логотип" src="images/лого_СБСС.svg">
+
+      <nav>
+        <ul class="navigation footer__navigation">
+          <li><a class="footer__link" href="#">О проекте</a></li>
+          <li><a class="footer__link" href="#">Календарь</a></li>
+          <li><a class="footer__link" href="#">Куда пойти</a></li>
+          <li><a class="footer__link" href="#">Вопросы</a></li>
+          <li><a class="footer__link" href="#">Читать и смотреть</a></li>
+          <li><a class="footer__link" href="#">Права детей</a></li>
+          <li><a class="footer__link" href="#">Истории</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__line"></div>
+
+      <ul class="footer__social">
+        <li><a class="footer__link" href="#">Facebook</a></li>
+        <li><a class="footer__link" href="#">VKontakte</a></li>
+        <li><a class="footer__link" href="#">Instagram</a></li>
+        <li><a class="footer__link" href="#">Уoutube</a></li>
+      </ul>
+
+      <button class="footer__button" type="button" aria-label="Помочь деньгами">Помочь деньгами</button>
+
+      <div class="footer__info">
+        <p class="footer__copyright">© Старшие Братья Старшие Сестры</p>
+        <p class="footer__development">Разработка – студенты <a class="footer__info-link"
+            href="https://praktikum.yandex.ru">Яндекс.Практикум</a></p>
+        <p class="footer__development">Концепция и дизайн – <a class="footer__info-link"
+            href="krkr.design">krkr.design</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Попап календарь - запись  СКРЫТЬ КЛАССОМ window_closed-->
+  <div class="overlay overlay_type_calendar">
+    <section class="popup  popup_type_calendar-registration">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <div class="popup__calendar-contain">
+        <p class="text-podpis">Волонтёры + дети</p>
+        <p class="text-podpis">декабрь / понедельник</p>
+      </div>
+
+      <div class="popup__calendar-contain">
+        <h2 class="text-h2 calendar__title">Субботний meet up: учимся проходить интевью</h2>
+        <p class="text-number">05</p>
+      </div>
+
+      <p class="text-podpis">12:00–14:00</p>
+      <div class="popup__underline"></div>
+
+      <p class="text-podpis">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+      <div class="popup__underline"></div>
+
+      <p class="text-podpis">Александра, +7 926 356-78-90</p>
+
+      <p class="text-body popup__calendar-text scroll">Наконец-то наступила весна и мы пережили эту долгую зиму! И
+        возможно, что внутренних сил и
+        ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на
+        встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и
+        внутреннего ресурса для общения и взаимодействия с нашими подопечными.Наконец-то наступила весна и мы пережили
+        эту долгую зиму! И возможно, что внутренних сил и
+        ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на
+        встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и
+        внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+
+      <div class="popup__calendar-contain popup__calendar-contain_button-box">
+        <button class="button button_place_calendar" type="button" aria-label="Записаться">Записаться</button>
+        <p class="text-podpis">Осталось 5 мест</p>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- Попап календарь - подтвердить запись СКРЫТЬ КЛАССОМ window_closed -->
+  <div class="overlay overlay_type_calendar-conform">
+    <section class="popup popup_type_calendar-conform">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <p class="text-h2 text-center">Подтвердить запись на мероприятие </p>
+      <p class="text-h2 text-center"> «Субботний meet up: учимся проходить интервью» </p>
+      <p class="text-h2 text-center"> 5 декабря с 12:00–14:00</p>
+
+      <div class="popup__calendar-conform-button-box">
+        <button class="button button_place_calendar">Подтвердить запись</button>
+        <button class="button">Отменить</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Попап календарь - подтвердить запись СКРЫТЬ КЛАССОМ window_closed -->
+  <div class="overlay overlay_type_calendar-succes ">
+    <section class="popup popup_type_calendar-succes">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <img class="popup__calendar-succes-image" src="./images/calendar__success.svg" alt="запись успешна">
+      <div class="popup__calendar-succes-text">
+        <p class="text-h2 text-center">Вы записаны на мероприятие</p>
+        <p class="text-h2 text-center">«Субботний meet up: учимся проходить интервью»</p>
+        <p class="text-h2 text-center">5 декабря с 12:00–14:00.</p>
+        <br>
+        <p class="text-h2 text-center">Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
+      </div>
+      <button class="button">Вернуться к календарю</button>
+    </section>
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
