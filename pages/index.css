@@ -173,7 +173,9 @@
 /* where-go-title */
 @import url("../blocks/where-go-title/where-go-title__main.css");
 @import url("../blocks/where-go-title/where-go-title.css");
-
+@import url("../blocks/where-go-title/button_container-where-go.css");
+@import url("../blocks/where-go-title/button_container-where-go-age.css");
+@import url("../blocks/where-go-title/where-go-btn_button.css");
 
 /*  */
 
